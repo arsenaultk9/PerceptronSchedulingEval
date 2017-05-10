@@ -3,3 +3,7 @@ D:\Utilisateur\Desktop\TTT\perceptronschedulingeval\PerceptronSchedulingEval\bin
 D:\Utilisateur\Desktop\TTT\perceptronschedulingeval\PerceptronSchedulingEval\obj\Debug\PerceptronSchedulingEval.csprojResolveAssemblyReference.cache
 D:\Utilisateur\Desktop\TTT\perceptronschedulingeval\PerceptronSchedulingEval\obj\Debug\PerceptronSchedulingEval.exe
 D:\Utilisateur\Desktop\TTT\perceptronschedulingeval\PerceptronSchedulingEval\obj\Debug\PerceptronSchedulingEval.pdb
+D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\obj\Debug\PerceptronSchedulingEval.exe
+D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\obj\Debug\PerceptronSchedulingEval.pdb
+D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\bin\Debug\PerceptronSchedulingEval.exe
+D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\bin\Debug\PerceptronSchedulingEval.pdb
