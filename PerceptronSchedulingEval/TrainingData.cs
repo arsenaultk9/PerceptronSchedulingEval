@@ -13,5 +13,10 @@ namespace PerceptronSchedulingEval
         {
             this.Output = output;
         }
+
+        public override string ToString()
+        {
+            return $"{base.ToString()}, result: {Output}";
+        }
     }
 }

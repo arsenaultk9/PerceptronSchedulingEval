@@ -9,31 +9,35 @@ namespace PerceptronSchedulingEval
         private double weightX;
         private double weightY;
 
+        private double weightB;
+
         public Neuron(double learningRate)
         {
             this.learningRate = learningRate;
 
             var r = new Random();
+
             weightX = r.NextDouble();
             weightY = r.NextDouble();
+            weightB = r.NextDouble();
         }
 
         public double Train(TrainingData data)
         {
-            double localError = data.Output - Evaluate(data);
+            var localError = data.Output - Evaluate(data);
 
-            if (localError != 0)
-            {
-                weightX += learningRate*localError*data.InputX;
-                weightY += learningRate*localError*data.InputY;
-            }
+            if (localError == 0) return localError;
+
+            weightX += learningRate*localError*data.InputX;
+            weightY += learningRate*localError*data.InputY;
+            weightB += learningRate*localError*1;
 
             return localError;
         }
 
         public int Evaluate(Data data)
         {
-            double sum = (data.InputX * weightX) + (data.InputY * weightY);
+            var sum = (data.InputX * weightX) + (data.InputY * weightY) + (1 * weightB);
             return (sum >= 0) ? 1 : -1;
         }
     }

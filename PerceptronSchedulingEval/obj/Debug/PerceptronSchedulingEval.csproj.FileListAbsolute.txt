@@ -7,3 +7,4 @@ D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\obj\Deb
 D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\obj\Debug\PerceptronSchedulingEval.pdb
 D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\bin\Debug\PerceptronSchedulingEval.exe
 D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\bin\Debug\PerceptronSchedulingEval.pdb
+D:\Utilisateur\Desktop\perceptronschedulingeval\PerceptronSchedulingEval\obj\Debug\PerceptronSchedulingEval.csprojResolveAssemblyReference.cache

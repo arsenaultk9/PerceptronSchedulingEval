@@ -15,5 +15,10 @@ namespace PerceptronSchedulingEval
             this.InputX = inputX;
             this.InputY = inputY;
         }
+
+        public override string ToString()
+        {
+            return $"x: {InputX}, y: {InputY}";
+        }
     }
 }

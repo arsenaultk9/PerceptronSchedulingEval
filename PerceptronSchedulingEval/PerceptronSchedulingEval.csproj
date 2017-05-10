@@ -44,6 +44,9 @@
     <Compile Include="Data.cs" />
     <Compile Include="NeuralNetwork.cs" />
     <Compile Include="Neuron.cs" />
+    <Compile Include="SchedulingData.cs" />
+    <Compile Include="SchedulingDataNormalizer.cs" />
+    <Compile Include="SchedulingTrainingData.cs" />
     <Compile Include="TrainingData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
