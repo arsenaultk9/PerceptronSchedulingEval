@@ -38,7 +38,7 @@ namespace PerceptronSchedulingEval
         public int Evaluate(Data data)
         {
             var sum = (data.InputX * weightX) + (data.InputY * weightY) + (1 * weightB);
-            return (sum >= 0) ? 1 : -1;
+            return (sum >= 0) ? 1 : -1; // Activation function
         }
     }
 }

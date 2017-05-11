@@ -38,7 +38,7 @@ namespace PerceptronSchedulingEval
             network.Train();
 
             Console.WriteLine();
-            Console.WriteLine("Required Date, Delivered Data, Required Quantity, Delivered Quantity, Is acceptable");
+            Console.WriteLine("Required Date, Delivered Data, Required Qty, Delivered Qty, Is acceptable");
 
             var testA = new SchedulingData(new DateTime(2017, 1, 15), new DateTime(2017, 1, 14), 50, 45);
             var testB = new SchedulingData(new DateTime(2017, 1, 15), new DateTime(2017, 1, 16), 50, 25);
